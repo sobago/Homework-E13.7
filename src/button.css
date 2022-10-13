@@ -1,0 +1,10 @@
+.normal {
+    composes: common from "./style.css";
+    cursor: pointer;
+}
+
+.disabled {
+    composes: common from "./style.css";
+    background-color: rgb(133, 133, 133);
+    cursor: default;
+}
